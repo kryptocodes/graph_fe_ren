@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import React, { useState, useEffect } from 'react'
 import PriceIndex from '../src/components/graph';
+import Loading from '../src/components/shared/Loading';
 import Wrapper from '../src/components/shared/Wrapper';
 
 const Index: React.FC<NextPage> = ({}) => {
@@ -35,7 +36,7 @@ const Index: React.FC<NextPage> = ({}) => {
       <div className='p-5'>
         <PriceIndex price={price} chart={chart} />
       </div>
-      : <div>Loading...</div>}  
+      : <Loading/> }  
       </Wrapper>
     );
 }

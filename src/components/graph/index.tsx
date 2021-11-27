@@ -53,7 +53,7 @@ const PriceIndex: React.FC<indexProps> = ({ price, chart }) => {
         {FormatRound(price?.usd_24h_change, 2)}%)
       </p>
 
-      <Tab.Group defaultIndex={2}>
+      <Tab.Group defaultIndex={1}>
         <Tab.List className="flex overflow-x-auto sm:flex-row pt-10">
           <ButtonTab content="Summary" />
           <ButtonTab content="Chart" />

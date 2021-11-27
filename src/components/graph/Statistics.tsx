@@ -34,7 +34,7 @@ const Statistics: React.FC<StatisticsProps> = ({chart}) => {
     
     return (
         <>
-        <Table Headers={HeaderProduct} Columns={ColumnProduct.slice(0,50)}/>
+        <Table Headers={HeaderProduct} Columns={ColumnProduct?.slice(0,50)}/>
         </>
     );
 }
