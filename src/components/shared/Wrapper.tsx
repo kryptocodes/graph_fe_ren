@@ -12,7 +12,6 @@ const Wrapper: React.FC<WrapperProps> = ({ children, title }) => {
   return (
     <>
       <Head title={title} />
-        <NavBar />
       {children}
     </>
   );

@@ -34,3 +34,9 @@ export const formatData = (data) => {
 
   return finalData;
 };
+
+//math round to n decimal places
+export const FormatRound = (value:any, decimals:any) => {
+  return Math.round(value * Math.pow(10, decimals)) / Math.pow(10, decimals);
+};
+

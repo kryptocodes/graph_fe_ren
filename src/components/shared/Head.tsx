@@ -6,7 +6,7 @@ interface HeadProps {
 
 }
 
-const Head: React.FC<HeadProps> = ({title="Graph_Fe"}) => {    
+const Head: React.FC<HeadProps> = ({title="REN_Fe"}) => {    
     return (
         <HeaderBox>
             <title>{title}</title>
